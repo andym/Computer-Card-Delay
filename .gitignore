@@ -1,0 +1,88 @@
+# Build directories - exclude everything except .uf2 files
+/build/*
+!/build/*.uf2
+/cmake-build-*/
+
+# VSCode specific
+.vscode/
+
+# CLion specific
+.idea/
+*.iml
+
+# Prerequisites
+*.d
+
+# Compiled Object files
+*.slo
+*.lo
+*.o
+*.obj
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+*.dll
+
+# Fortran module files
+*.mod
+*.smod
+
+# Compiled Static libraries
+*.lai
+*.la
+*.a
+*.lib
+
+# Executables
+*.exe
+*.out
+*.app
+*.elf
+*.hex
+
+# Pico SDK files
+# Don't ignore pico_sdk_import.cmake as it's part of the project
+
+# Binary files
+*.bin
+
+# Debug files
+*.dSYM/
+*.su
+*.idb
+*.pdb
+
+# macOS specific
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Windows specific
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Linux specific
+*~
+.directory
+.Trash-*
+
+# Log files
+*.log
+
+# Environment variables
+.env
+
+# Python bytecode (sometimes used in build scripts)
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Claude Code guidance file
+CLAUDE.md
